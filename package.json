@@ -1,0 +1,29 @@
+{
+  "name": "next-step",
+  "version": "0.0.1",
+  "description": "Create an iterator similar to the return of a generating function",
+  "main": "build/cjs.js",
+  "module": "build/cjs.js",
+  "umd:main": "build/umd.js",
+  "jsnext:main": "build/cjs.js",
+  "source": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "preact"
+  ],
+  "author": "Matias Trujillo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UpperCod/next-step"
+  },
+  "devDependencies": {
+    "preact": "^8.2.6",
+    "rollup": "^0.45.2",
+    "rollup-plugin-buble": "^0.17.0"
+  }
+}
