@@ -1,6 +1,6 @@
 {
   "name": "next-step",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an iterator similar to the return of a generating function",
   "main": "build/cjs.js",
   "module": "build/cjs.js",

@@ -1,7 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 /**
  * generates a list of iterable functions
  * @param {...function} yields - stores iterable functions
@@ -37,4 +35,4 @@ function Iterator() {
     return { next: next };
 }
 
-exports.Iterator = Iterator;
+module.exports = Iterator;

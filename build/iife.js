@@ -1,4 +1,4 @@
-var nextStep = (function (exports) {
+var nextStep = (function () {
 'use strict';
 
 /**
@@ -36,8 +36,6 @@ function Iterator() {
     return { next: next };
 }
 
-exports.Iterator = Iterator;
+return Iterator;
 
-return exports;
-
-}({}));
+}());

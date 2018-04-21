@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(factory((global.nextStep = {})));
-}(this, (function (exports) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.nextStep = factory());
+}(this, (function () { 'use strict';
 
 /**
  * generates a list of iterable functions
@@ -39,8 +39,6 @@ function Iterator() {
     return { next: next };
 }
 
-exports.Iterator = Iterator;
-
-Object.defineProperty(exports, '__esModule', { value: true });
+return Iterator;
 
 })));

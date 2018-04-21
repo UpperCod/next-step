@@ -3,7 +3,7 @@
  * @param {...function} yields - stores iterable functions
  * @return {object}
  */
-export function Iterator(...yields) {
+export default function Iterator(...yields) {
     let cursor = 0;
     /**
      *
